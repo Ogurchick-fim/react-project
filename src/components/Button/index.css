@@ -1,0 +1,17 @@
+.my-buttin{
+    min-width: 120px;
+    color: #fff;
+    background-color: rgba(12, 112, 112, 0.651);
+    border: none;
+    border-radius: 20px;
+    min-height: 30px;
+}
+.my-buttin--bordered{
+    background-color: #fff;
+    color: rgba(23, 209, 209, 0.651);
+    border: rgba(23, 209, 209, 0.651);
+}
+
+.my-buttin--primary{
+    background-color: rgba(20, 134, 134, 0.651);
+}
