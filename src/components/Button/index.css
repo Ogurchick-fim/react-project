@@ -1,17 +1,44 @@
 .my-buttin{
     min-width: 120px;
     color: #fff;
-    background-color: rgba(12, 112, 112, 0.651);
+    background-color: #006FEE;
     border: none;
-    border-radius: 20px;
-    min-height: 30px;
+    border-radius: 8px;
+    height: 34px;
+    width: 100px;
+    transition: 0.2s;
+    margin-right: 20px;
+    margin-top: 10px;
 }
-.my-buttin--bordered{
-    background-color: #fff;
-    color: rgba(23, 209, 209, 0.651);
-    border: rgba(23, 209, 209, 0.651);
+.my-buttin--lg_primary{
+    width: 50px;
+    height:  48px;
+
 }
 
-.my-buttin--primary{
-    background-color: rgba(20, 134, 134, 0.651);
+.my-buttin--lg{
+    width: 150px;
+    height: 48px;
+}
+.my-buttin--mg{
+    width: 120px;
+    height: 40px;
+}
+
+.my-buttin--primary:hover{
+    background-color: #024694;
+    transition: 0.2s;
+}
+
+.my-buttin--border{
+    background-color: #fff;
+    border: 1px solid #006FEE;
+    color: #006FEE;
+    transition: 0.2s;
+}
+
+.my-buttin--border:hover{
+    transition: 0.2s;
+    color: #fff;
+    background-color: #006FEE;
 }
